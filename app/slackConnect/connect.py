@@ -1,4 +1,4 @@
-slack_token = 'xoxb-96219606007-IB1odIQltboGSjjKhmARM2yM'
+slack_token = ''
 slack_channel = 'btcalert'
 slack_icon_emoji = ''
 slack_user_name = ''

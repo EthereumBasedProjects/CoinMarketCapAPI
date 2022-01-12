@@ -12,5 +12,5 @@ elif (btcDominance <= 39):
 elif (btcDominance <= 40):
     message += ":alert: *WATCH!!!!! Bitcoin Dominance is less than 40%!*"
 
-#if (btcDominance <= 40):
-slackConnect.connect.post_message_to_slack(message)
+if (btcDominance <= 40):
+    slackConnect.connect.post_message_to_slack(message)
